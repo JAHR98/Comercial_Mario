@@ -1,0 +1,136 @@
+-----PROCEDIMIENTOS INSERTAR---------
+
+USE Proyecto
+
+CREATE PROCEDURE VER_ERRORES
+AS
+SELECT
+  ERROR_NUMBER() AS [NUMERO DE ERROR],
+    ERROR_LINE() AS [LINEA DEL ERROR],
+  ERROR_MESSAGE() AS [MENSAJE DE ERROR]
+GO
+
+----------------------INSERCION DE UN CARGO---------------------------------
+CREATE PROCEDURE Insertar_Cargo 
+@CARGO VARCHAR(20),
+@SALARIO MONEY
+AS
+BEGIN
+	BEGIN TRY
+		INSERT INTO Cargo(cargo,sueldo) VALUES (@CARGO,@SALARIO)
+	END TRY
+	BEGIN CATCH
+		EXEC VER_ERRORES
+	END CATCH
+END
+
+-------------------------INSERCION DE UN PROVEEDOR------------------------------
+CREATE PROCEDURE Insertar_Proveedor
+@RTN VARCHAR(15),
+@NOMBRE VARCHAR(80),
+@DIRECCION VARCHAR(500),
+@TELEFONO INT
+AS
+BEGIN
+	BEGIN TRY
+		INSERT INTO	Proveedor(rtn_proveedor,nombre_prveedor,direccion_proveedor,telefono)
+		VALUES(@RTN,@NOMBRE,@DIRECCION,@TELEFONO)
+	END TRY
+	BEGIN CATCH
+		EXEC VER_ERRORES
+	END CATCH
+END
+
+-----------------------INSERCION DE UN PRODUCTO--------------------------------
+CREATE PROCEDURE Insertar_Producto 
+@NOMBRE VARCHAR(80),
+@DESCRIPCION VARCHAR(2000),
+@PRECIOACTUAL MONEY,
+@EXISTENCIA INT,
+@PROVEEDOR INT
+AS
+BEGIN
+	BEGIN TRY
+		DECLARE @ID_PRODUC INT
+		INSERT INTO Producto(nombre_producto,descripcion,precio_actual,existencia)
+		VALUES (@NOMBRE,@DESCRIPCION,@PRECIOACTUAL,@EXISTENCIA)
+		SELECT @ID_PRODUC = (SELECT TOP 1 id_producto FROM Producto ORDER BY id_producto DESC)
+		INSERT INTO Producto_Proveedor(id_producto,id_proveedor)
+		VALUES (@ID_PRODUC,@PROVEEDOR)
+	END TRY
+	BEGIN CATCH
+		EXEC VER_ERRORES
+	END CATCH
+END
+
+----------------------INSERCION DE UN USUARIO---------------------------------
+CREATE PROCEDURE Insertar_Usuario
+@USUARIO VARCHAR(20),
+@CONTRASENA VARCHAR(15),
+@IDCARGO INT
+AS
+BEGIN
+	BEGIN TRY
+		INSERT INTO Usuario(usuario,contraseña,id_cargo)
+		VALUES (@USUARIO,@CONTRASENA,@IDCARGO)
+	END TRY
+	BEGIN CATCH
+		EXEC VER_ERRORES
+	END CATCH
+END
+
+----------------------INSERCION DE UN EMPLEADO-------------------
+CREATE PROCEDURE Insertar_Empleado
+@NOMBRE VARCHAR(30),
+@IDENTIDAD VARCHAR(15),
+@DIRECCION VARCHAR(500),
+@TELEFONO INT,
+@CORREO VARCHAR(20),
+@ESTADO VARCHAR(20),
+@IDCARGO INT,
+@USUARIO VARCHAR(20)
+AS
+BEGIN
+	BEGIN TRY
+		INSERT INTO Empleados(nombre_empleado,identidad_empleado,direccion,telefono,correo_electronico,estado,id_cargo,usuario)
+		VALUES (@NOMBRE,@IDENTIDAD,@DIRECCION,@TELEFONO,@CORREO,@ESTADO,@IDCARGO,@USUARIO)
+	END TRY
+	BEGIN CATCH
+		EXEC VER_ERRORES
+	END CATCH
+END
+
+-------------------------INSERCION DE CLIENTE-----------------------------
+CREATE PROCEDURE Insertar_Cliente
+@NOMBRE VARCHAR(30),
+@APELLIDO VARCHAR(30),
+@IDENTIDAD VARCHAR(16),
+@RTN VARCHAR(20),
+@TELEFONO INT,
+@CORREO VARCHAR(20)
+AS
+BEGIN
+	BEGIN TRY
+		INSERT INTO Cliente(nombre_cliente,apellido_cliente,identidad_cliente,rtn_cliente,telefono,correo_electronico)
+		VALUES (@NOMBRE,@APELLIDO,@IDENTIDAD,@RTN,@TELEFONO,@CORREO)
+	END TRY
+	BEGIN CATCH
+		EXEC VER_ERRORES
+	END CATCH
+END
+
+
+
+-----------------ELIMINACION, DESABILITAR EMPLEADO-----------------------------
+CREATE PROCEDURE Eliminar_Empleado
+@IDENTIDAD VARCHAR(15)
+AS
+BEGIN
+	BEGIN TRY
+		UPDATE Empleados
+		SET estado='Desempleado' WHERE identidad_empleado = @IDENTIDAD
+	END TRY
+	BEGIN CATCH
+		EXEC VER_ERRORES
+	END CATCH
+END
