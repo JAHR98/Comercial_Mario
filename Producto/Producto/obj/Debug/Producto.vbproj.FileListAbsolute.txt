@@ -1,0 +1,12 @@
+C:\Users\marii\source\repos\Producto\Producto\bin\Debug\Producto.exe.config
+C:\Users\marii\source\repos\Producto\Producto\bin\Debug\Producto.exe
+C:\Users\marii\source\repos\Producto\Producto\bin\Debug\Producto.pdb
+C:\Users\marii\source\repos\Producto\Producto\bin\Debug\Producto.xml
+C:\Users\marii\source\repos\Producto\Producto\obj\Debug\Producto.vbproj.AssemblyReference.cache
+C:\Users\marii\source\repos\Producto\Producto\obj\Debug\Producto.Form1.resources
+C:\Users\marii\source\repos\Producto\Producto\obj\Debug\Producto.Resources.resources
+C:\Users\marii\source\repos\Producto\Producto\obj\Debug\Producto.vbproj.GenerateResource.cache
+C:\Users\marii\source\repos\Producto\Producto\obj\Debug\Producto.vbproj.CoreCompileInputs.cache
+C:\Users\marii\source\repos\Producto\Producto\obj\Debug\Producto.exe
+C:\Users\marii\source\repos\Producto\Producto\obj\Debug\Producto.xml
+C:\Users\marii\source\repos\Producto\Producto\obj\Debug\Producto.pdb
