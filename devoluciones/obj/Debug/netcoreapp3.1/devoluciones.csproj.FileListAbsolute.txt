@@ -1,0 +1,17 @@
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\bin\Debug\netcoreapp3.1\devoluciones.exe
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\bin\Debug\netcoreapp3.1\devoluciones.deps.json
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\bin\Debug\netcoreapp3.1\devoluciones.runtimeconfig.json
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\bin\Debug\netcoreapp3.1\devoluciones.runtimeconfig.dev.json
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\bin\Debug\netcoreapp3.1\devoluciones.dll
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\bin\Debug\netcoreapp3.1\devoluciones.pdb
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.csproj.AssemblyReference.cache
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.frmdevolucion.resources
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.frmNdevolucion.resources
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.Properties.Resources.resources
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.csproj.GenerateResource.cache
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.AssemblyInfoInputs.cache
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.AssemblyInfo.cs
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.csproj.CoreCompileInputs.cache
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.dll
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.pdb
+C:\Users\Cesar\source\repos\devoluciones\devoluciones\obj\Debug\netcoreapp3.1\devoluciones.genruntimeconfig.cache
