@@ -1,0 +1,26 @@
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\bin\Debug\Proveedor.exe.config
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\bin\Debug\Proveedor.exe
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\bin\Debug\Proveedor.pdb
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\bin\Debug\Proveedor.xml
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\obj\Debug\Proveedor.vbproj.AssemblyReference.cache
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\obj\Debug\Proveedor.Form1.resources
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\obj\Debug\Proveedor.Resources.resources
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\obj\Debug\Proveedor.vbproj.GenerateResource.cache
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\obj\Debug\Proveedor.vbproj.CoreCompileInputs.cache
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\obj\Debug\Proveedor.exe
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\obj\Debug\Proveedor.xml
+C:\Users\marii\OneDrive\Escritorio\Empleado\Proveedor\Proveedor\obj\Debug\Proveedor.pdb
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.vbproj.AssemblyReference.cache
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.exe
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.xml
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.pdb
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\bin\Debug\Proveedor.exe.config
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\bin\Debug\Proveedor.exe
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\bin\Debug\Proveedor.pdb
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\bin\Debug\Proveedor.xml
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.Resources.resources
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.Proveedor.resources
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.vbproj.GenerateResource.cache
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.vbproj.CoreCompileInputs.cache
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.AgregarPedido.resources
+C:\Users\marii\OneDrive\Escritorio\Ventana Agregar proveedor y empleado\Proveedor\Proveedor\obj\Debug\Proveedor.AgregarProveedor.resources
