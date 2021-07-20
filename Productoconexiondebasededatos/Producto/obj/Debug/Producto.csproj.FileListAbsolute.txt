@@ -1,0 +1,12 @@
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\bin\Debug\Producto.exe.config
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\bin\Debug\Producto.exe
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\bin\Debug\Producto.pdb
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.csproj.AssemblyReference.cache
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.Producto.resources
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.Properties.Resources.resources
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.csproj.GenerateResource.cache
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.exe
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.pdb
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.AgregarProducto.resources
+C:\Users\javie\OneDrive\Escritorio\II periodo del 2021\Desarrollo de sotfware\3er Parcial\Producto\Producto\obj\Debug\Producto.NuevaDevolución.resources
