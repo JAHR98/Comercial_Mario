@@ -12,7 +12,7 @@ namespace CapaProducto;
 {
     public class N_Producto
     {
-        readonly D_producto Objfactura = new D_producto();
+        readonly D_producto ObjProducto = new D_producto();
 
         public static DataTable MostrarProducto()
         {
@@ -25,16 +25,16 @@ namespace CapaProducto;
         }
         public void InsertarProducto(E_producto producto)
         {
-            Objfactura.InsertarProducto(producto);
+            ObjProducto.InsertarProducto(producto);
         }
 
         public void EditarProducto(E_producto producto)
         {
-            Objfactura.EditarProducto(producto);
+            ObjProducto.EditarProducto(producto);
         }
         public void EliminarProducto(E_producto producto)
         {
-            Objfactura.EliminarProducto(producto);
+            ObjProducto.EliminarProducto(producto);
         }
     }
 }
