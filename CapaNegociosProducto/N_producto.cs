@@ -8,7 +8,7 @@ using System.Data;
 using CapaProducto;
 using CapaProdutos;
 
-namespace CapaProductoInv;
+namespace CapaProducto;
 {
     public class N_Producto
     {
