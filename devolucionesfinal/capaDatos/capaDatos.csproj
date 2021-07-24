@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\Cesar\Desktop\clases\periodo 2\desarrollo\proyecto\devoluciones\d_devoluciones.cs" Link="d_devoluciones.cs" />
+  </ItemGroup>
+
+</Project>
