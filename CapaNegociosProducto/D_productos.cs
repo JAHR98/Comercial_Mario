@@ -70,12 +70,13 @@ namespace CapaProducto
 
             conectar.Open();
 
-            SqlPrueba.Parameters.AddWithValue("@No_factura", factura.No_factura);
-            SqlPrueba.Parameters.AddWithValue("@id_cliente", factura.id_cliente);
-            SqlPrueba.Parameters.AddWithValue("@No_factura", factura.No_factura);
-            SqlPrueba.Parameters.AddWithValue("@fecha", factura.fecha);
-            SqlPrueba.Parameters.AddWithValue("@cod_termino", factura.cod_termino);
-            SqlPrueba.Parameters.AddWithValue("@cod_empleado", factura.cod_empleado);
+            SqlPrueba.Parameters.AddWithValue("@No_Producto", producto.No_Producto);
+            SqlPrueba.Parameters.AddWithValue("@id_Proveedor", producto.id_Proveedor);
+            SqlPrueba.Parameters.AddWithValue("@fechaDevolucion", producto.fechaDevolucion);
+            SqlPrueba.Parameters.AddWithValue("@Descripcion", producto.Descripcion);
+            SqlPrueba.Parameters.AddWithValue("@existencia", factura.existencia);
+            
+            
 
 
             SqlCmd.ExecuteNonQuery();
